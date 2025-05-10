@@ -29,4 +29,14 @@
       color: #7b7b7b;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .header__cart {
+      margin-top: 20px;
+    }
+  }
 }
