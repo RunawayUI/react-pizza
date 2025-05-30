@@ -1,0 +1,26 @@
+.root {
+    position: relative;
+}
+
+.input {
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.clear {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    opacity: .3;
+
+    &:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
+}
